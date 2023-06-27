@@ -1,0 +1,14 @@
+2023-06-27 22:42:44.431 +03:00 [INF] User profile is available. Using 'C:\Users\yalpe\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-27 22:42:44.618 +03:00 [INF] Now listening on: https://localhost:7107
+2023-06-27 22:42:44.621 +03:00 [INF] Now listening on: http://localhost:5205
+2023-06-27 22:42:44.623 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-27 22:42:44.624 +03:00 [INF] Hosting environment: Development
+2023-06-27 22:42:44.628 +03:00 [INF] Content root path: C:\Users\yalpe\Desktop\Yeni Proje\NzWalks\NzWalks.API
+2023-06-27 22:42:46.739 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/index.html - -
+2023-06-27 22:42:46.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_vs/browserLink - -
+2023-06-27 22:42:46.988 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - -
+2023-06-27 22:42:46.990 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/index.html - - - 200 - text/html;charset=utf-8 250.9356ms
+2023-06-27 22:42:47.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 20.9559ms
+2023-06-27 22:42:47.044 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.7039ms
+2023-06-27 22:42:47.160 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - -
+2023-06-27 22:42:47.299 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 139.6636ms

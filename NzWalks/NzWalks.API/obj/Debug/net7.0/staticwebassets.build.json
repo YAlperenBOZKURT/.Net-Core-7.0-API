@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "ULpuHK7GvQgElZApoUplXrOXcQHieOjzXj4ygUtCXZI=",
+  "Source": "NzWalks.API",
+  "BasePath": "_content/NzWalks.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NzWalks.API\\wwwroot",
+      "Source": "NzWalks.API",
+      "ContentRoot": "C:\\Users\\yalpe\\Desktop\\Yeni Proje\\NzWalks\\NzWalks.API\\wwwroot\\",
+      "BasePath": "_content/NzWalks.API",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

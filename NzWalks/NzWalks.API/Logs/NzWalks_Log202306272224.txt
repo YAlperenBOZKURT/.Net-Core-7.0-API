@@ -1,0 +1,13 @@
+2023-06-27 22:24:10.859 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7107/api/Walks?pageNumber=1&pageSize=1000 - -
+2023-06-27 22:24:10.941 +03:00 [INF] Executing endpoint 'NzWalks.API.Controllers.WalksController.GetAll (NzWalks.API)'
+2023-06-27 22:24:10.967 +03:00 [INF] Route matched with {action = "GetAll", controller = "Walks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAll(System.String, System.String, System.String, System.Nullable`1[System.Boolean], Int32, Int32) on controller NzWalks.API.Controllers.WalksController (NzWalks.API).
+2023-06-27 22:24:13.885 +03:00 [INF] GetAllRegionsAction Method was invoked!
+2023-06-27 22:24:14.451 +03:00 [INF] Executed DbCommand (33ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [w].[ID], [w].[CreatedDate], [w].[Description], [w].[DifficultyID], [w].[LengthInKm], [w].[ModifiedDate], [w].[Name], [w].[RegionID], [w].[Status], [w].[WalkImgUrl], [d].[ID], [d].[CreatedDate], [d].[ModifiedDate], [d].[Name], [d].[Status], [r].[ID], [r].[Code], [r].[CreatedDate], [r].[ModifiedDate], [r].[Name], [r].[RegionImageUrl], [r].[Status]
+FROM [Walks] AS [w]
+INNER JOIN [Diffuculties] AS [d] ON [w].[DifficultyID] = [d].[ID]
+INNER JOIN [Regions] AS [r] ON [w].[RegionID] = [r].[ID]
+2023-06-27 22:24:14.496 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NzWalks.API.Models.DTO.WalkDto, NzWalks.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-27 22:24:14.515 +03:00 [INF] Executed action NzWalks.API.Controllers.WalksController.GetAll (NzWalks.API) in 3539.675ms
+2023-06-27 22:24:14.520 +03:00 [INF] Executed endpoint 'NzWalks.API.Controllers.WalksController.GetAll (NzWalks.API)'
+2023-06-27 22:24:14.529 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7107/api/Walks?pageNumber=1&pageSize=1000 - - - 200 - application/json;+charset=utf-8 3672.8924ms
