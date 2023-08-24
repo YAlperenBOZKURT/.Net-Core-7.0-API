@@ -1,5 +1,5 @@
 # .Net Core 7.0 API
-I have developed a .NET 7.0 REST API while adhering to the SOLID principles. <br>
+## I have developed a .NET 7.0 REST API while adhering to the SOLID principles. <br>
 Database: MSSQL.
 Features:<br>
 CRUD Operations / Action Methods <br>
